@@ -1,0 +1,139 @@
+.product-list-container {
+    margin: 20px;
+  }
+  
+  .add-product-link {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .add-product-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-thumbnail {
+    /* max-width: 50px;
+    max-height: 50px; */
+  }
+  
+  .view-product-link {
+    /* display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; */
+    text-decoration: none;
+  }
+  
+  .view-product-link:hover {
+    background-color: #0056b3;
+  }
+
+
+/* Style the table */
+.table {
+  position: relative;
+  border-collapse: collapse;
+}
+
+/* Style the table header */
+.table thead th {
+  
+  background-color: #9b9999c4;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  cursor: pointer;
+}
+
+/* Style the table rows */
+.table tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style the table cells */
+.table tbody td {
+  padding: 12px;
+}
+
+/* Style the product thumbnail image */
+.product-thumbnail {
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px solid #ccc;
+}
+.images, .actions{
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ccc;
+}
+
+.pagination .active button {
+  background-color: #b8b8b8;
+  color: #fff;
+}
+
+/* CSS cho ô tìm kiếm */
+.search-icon {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+/* CSS cho ô nhập tìm kiếm */
+.form-control {
+  width: 200px; /* Điều chỉnh kích thước ô tìm kiếm theo ý muốn */
+}
+
+.pagination-button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  margin: 0 5px;
+  width: 85px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #ccc;
+}
+
+.pagination-button:disabled {
+  cursor: not-allowed;
+  background-color: #eee;
+}
+
+.page-size {
+  display: flex;
+}
